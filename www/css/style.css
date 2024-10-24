@@ -24,6 +24,9 @@
         left:10px; right:10px;
         font-family: bold;
     }
+     #remain::after{
+        content: "秒";
+    }
     
     #time {
         color: #ff0000;
@@ -51,17 +54,25 @@
         font-size: 20px;
         background-color: yellow;
         color: green;
-        position:absolute; top:380px; left:2%; width:43%; height:60px; 
+        position:absolute; top:380px; left:2%; width:25%; height:60px; 
     }
     
     #btnB {
         font-size: 20px;
-        position:absolute; top:380px; left:45%; width:25%; height:60px; 
+        position:absolute; top:380px; left:25%; width:25%; height:60px; 
+        background-color: chartreuse;
     }
 
     #btnC {
-        font-size: 10px;
-        position:absolute; top:380px; left:70%; width:28%; height:60px; 
+        font-size: 20px;
+        position:absolute; top:380px; left:50%; width:20%; height:60px; 
+        background-color: rgb(243, 147, 147);
+    }
+
+    #btnD{
+        font-size: 20px;
+        position:absolute; top:380px; left:70%; width:25%; height:60px; 
+        background-color: rgb(252, 143, 228);
     }
     
     #minute {
